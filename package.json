@@ -1,0 +1,30 @@
+{
+  "name": "oop-connect-four",
+  "version": "1.0.0",
+  "description": "This project is part of the object-oriented programming curriculum at App Academy. Please fork and clone it to work on the Connect Four project.",
+  "main": "",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvarov/oop-connect-four.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvarov/oop-connect-four/issues"
+  },
+  "homepage": "https://github.com/anvarov/oop-connect-four#readme"
+}
