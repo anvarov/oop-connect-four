@@ -1,9 +1,19 @@
 export default class Game {
-  constructor(board, player1, player2) {
+  constructor(board, winnerChecker, player1, player2) {
     this.board = board;
     this.player1 = player1;
     this.player2 = player2;
-    this.currentPlayer = 'red';
+    this.currentPlayer = 2;
     this.winner = undefined;
+    this.winnerChecker = winnerChecker;
+  }
+
+  get getGameName() {
+    const gameName = `${this.player1} vs. ${this.player2}`;
+    return gameName;
+  }
+
+  set setCurrentPlayer(player) {
+    this.currentPlayer = player;
   }
 }
